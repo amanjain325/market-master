@@ -1,0 +1,8 @@
+{
+  "name": "Market master",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "6cf639d0"
+}
