@@ -2,10 +2,10 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { TabsPageRoutingModule } from './tabs-routing.module';
-
 import { TabsPage } from './tabs.page';
+import { HomeComponent } from '../home/home.component';
+import { SettingsComponent } from '../settings/settings.component';
 
 @NgModule({
   imports: [
@@ -14,6 +14,10 @@ import { TabsPage } from './tabs.page';
     FormsModule,
     TabsPageRoutingModule
   ],
-  declarations: [TabsPage]
+  declarations: [
+    TabsPage,
+    HomeComponent,
+    SettingsComponent
+  ]
 })
-export class TabsPageModule {}
+export class TabsPageModule { }
